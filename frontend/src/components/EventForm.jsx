@@ -29,7 +29,6 @@ const EventForm = ({
         value={date}
         onChange={(e) => setDate(e.target.value)}
         required
-        placeholder="Date/Time"
         className="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 
         focus:ring-blue-400 transition duration-300"
       />
